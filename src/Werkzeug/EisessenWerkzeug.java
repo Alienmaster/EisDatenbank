@@ -20,11 +20,11 @@ public class EisessenWerkzeug implements ActionListener
         
         public void Eisessen()
         {
-        System.out.println("Aktueller Bestand");
-        System.out.println(_Bestand.GibBestandAus(" "));
-        int wert2 = Integer.valueOf(_ui.TextAnzeigeUndEingabeAntwort(
-                "Welches Eis möchtest du essen? (array starts at 0)"));
-        _Bestand.EisAusDemLagerNehmen(wert2);
+//        System.out.println("Aktueller Bestand");
+//        System.out.println(_Bestand.GibBestandAus(" "));
+//        int wert2 = Integer.valueOf(_ui.TextAnzeigeUndEingabeAntwort(
+//                "Welches Eis möchtest du essen? (array starts at 0)"));
+//        _Bestand.EisAusDemLagerNehmen(wert2);
         }
     }
 
