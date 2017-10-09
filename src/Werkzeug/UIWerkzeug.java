@@ -1,4 +1,4 @@
-package ui;
+package Werkzeug;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 
 
-public class UI
+public class UIWerkzeug
 {
     public int Hauptmenue()
     {

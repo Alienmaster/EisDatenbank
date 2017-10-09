@@ -1,5 +1,7 @@
 package StartUp;
 
+import Material.StueckEis;
+
 public interface EisBestandInterface
 {
 

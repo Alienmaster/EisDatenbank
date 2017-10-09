@@ -1,11 +1,11 @@
-package ui;
+package Werkzeug;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import Werkzeug.EisessenWerkzeug;
+import Services.EisessenService;
 
-public class Gui extends javax.swing.JFrame
+public class GuiWerkzeug extends javax.swing.JFrame
 {
     private javax.swing.JPanel jPanel1 = new javax.swing.JPanel();
 
@@ -24,7 +24,7 @@ public class Gui extends javax.swing.JFrame
     //    private javax.swing.JLabel jLabel2 = new javax.swing.JLabel();
     //    private javax.swing.JTextField jTextField1 = new javax.swing.JTextField();
 
-    public Gui()
+    public GuiWerkzeug()
     {
 
         // Was soll bei Klick auf das System-X rechts oben passieren:
@@ -43,7 +43,7 @@ public class Gui extends javax.swing.JFrame
         jButton2.setText("2) Eis ins aktuelle Lager legen");
         jPanel1.add(jButton2);
         jButton3.setText("3) Eisessen");
-        jButton3.addActionListener(new EisessenWerkzeug(jButton3));
+        jButton3.addActionListener(new EisessenService(jButton3));
         jPanel1.add(jButton3);
         jButton4.setText("4) Was steht aktuell in der Datenbank Datei?");
         jPanel1.add(jButton4);

@@ -1,12 +1,12 @@
-package StartUp;
+package Material;
 
 public class StueckEis
 {
-    String _Name;
-    String _Geschmack;
-    String _Form;
+    private String _Name;
+    private String _Geschmack;
+    private String _Form;
 
-    StueckEis(String Name, String Geschmack, String Form)
+    public StueckEis(String Name, String Geschmack, String Form)
     {
         _Name = Name;
         _Geschmack = Geschmack;
