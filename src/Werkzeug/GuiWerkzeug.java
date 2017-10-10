@@ -10,7 +10,7 @@ public class GuiWerkzeug {
 
 	// Die sichtbaren Elemente werden als Objektvariablen angelegt:
 	private javax.swing.JButton jButton1 = new javax.swing.JButton();
-	private javax.swing.JButton jButton2 = new javax.swing.JButton();
+	public javax.swing.JButton jButton2 = new javax.swing.JButton();
 	public javax.swing.JButton jButton3 = new javax.swing.JButton();
 	private javax.swing.JButton jButton4 = new javax.swing.JButton();
 	private javax.swing.JButton jButton5 = new javax.swing.JButton();
